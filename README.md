@@ -5,15 +5,24 @@ This project explores the popular Iris dataset to classify iris species using a 
 
 Project Overview
 
-Dataset: Iris dataset (from sklearn.datasets)
-Objective: Classify iris species based on sepal and petal measurements.
-Model: Decision Tree Classifier
+* Dataset: Iris dataset (from sklearn.datasets)
+  
+* Objective: Classify iris species based on sepal and petal measurements.
+  
+* Model: Decision Tree Classifier
+
+  
 Key Techniques:
-Post-pruning to reduce overfitting.
-Tree visualization using sklearn.tree.
-Hyperparameter tuning with Grid Search CV.
-Model evaluation using a Confusion Matrix and accuracy score.
-Project Workflow
+* Post-pruning to reduce overfitting.
+
+* Tree visualization using sklearn.tree.
+  
+* Hyperparameter tuning with Grid Search CV.
+  
+* Model evaluation using a Confusion Matrix and accuracy score.
+
+
+* Project Workflow
 
 Data Loading: Loaded the Iris dataset and divided it into features and labels.
 Model Training:
@@ -47,19 +56,3 @@ Copy code
 pip install numpy pandas matplotlib scikit-learn
 How to Run
 
-Clone this repository:
-bash
-Copy code
-git clone https://github.com/yourusername/iris-decision-tree.git
-Run the notebook or script:
-bash
-Copy code
-jupyter notebook iris_decision_tree.ipynb
-or
-bash
-Copy code
-python iris_decision_tree.py
-Repository Structure
-
-iris_decision_tree.ipynb: Jupyter Notebook containing the full analysis, training, visualization, and evaluation.
-README.md: Project documentation.
