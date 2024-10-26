@@ -1,5 +1,6 @@
-# Decision-Tree
-Iris Dataset Classification with Decision Tree
+# Dataset Classification with Decision Tree
+
+
 
 This project explores the popular Iris dataset to classify iris species using a Decision Tree Classifier. In this project, post-pruning techniques were applied to enhance the model's performance, and the tree was visualized to understand the decision-making process. Additionally, Grid Search Cross-Validation (CV) was used to optimize hyperparameters and achieve the best model accuracy.
 
